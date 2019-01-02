@@ -1,0 +1,3 @@
+[run]
+source = Treasury_Department
+omit = Treasury_Department/test*
