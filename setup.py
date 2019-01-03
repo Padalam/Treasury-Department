@@ -16,8 +16,8 @@ requires = [
 ]
 
 tests_require = [
-    'WebTest >= 1.3.1',  # py3 compat
-    'pytest >= 3.7.4',
+    'WebTest',  # py3 compat
+    'pytest',
     'pytest-cov',
 ]
 
@@ -27,10 +27,10 @@ setup(
     description='Treasury_Department',
     long_description=README + '\n\n' + CHANGES,
     classifiers=[
-        'Programming Language :: Python',
-        'Framework :: Pyramid',
-        'Topic :: Internet :: WWW/HTTP',
-        'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
+                'Programming Language :: Python',
+                'Framework :: Pyramid',
+                'Topic :: Internet :: WWW/HTTP',
+                'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
     ],
     author='',
     author_email='',
